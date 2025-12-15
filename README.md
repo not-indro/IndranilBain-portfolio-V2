@@ -39,4 +39,4 @@ Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://
 
 # License
 
-Licensed under the [MIT license](https://github.com/not-indro/Portfolio-2.0/blob/main/LICENSE.md).
+Licensed under the [MIT license].
