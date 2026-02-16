@@ -1,7 +1,6 @@
 
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { ProjectCard } from "@/components/project-card";
 import { ProjectList } from "@/components/project-list";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -76,13 +75,15 @@ export default function Page() {
             ].map((item, id) => (
               <BlurFade key={item.title} delay={BLUR_FADE_DELAY * 6 + id * 0.05}>
                 <div className="rounded-lg border bg-card text-card-foreground shadow-sm p-4 h-full flex flex-col items-center text-center">
-                  <div className="w-full h-40 relative mb-3">
+                  <div className="w-full h-40 relative mb-3 rounded-lg overflow-hidden">
                     <Image
                       src={item.image}
                       alt={item.title}
                       fill
-                      className="object-contain rounded-lg"
+                      className="object-contain"
                       sizes="(max-width: 768px) 100vw, 33vw"
+                      unoptimized={item.image.endsWith(".gif")}
+                      priority
                     />
                   </div>
                   <h3 className="font-semibold mb-1">{item.title}</h3>
@@ -157,7 +158,15 @@ export default function Page() {
                     {category.items.map((skill) => (
                       <Badge key={skill.name} className="flex items-center gap-1 px-2 py-0.5 text-xs">
                         {/* @ts-ignore */}
-                        {skill.logo && <img src={skill.logo} alt={skill.name} className="w-3 h-3 object-contain invert dark:invert-0" />}
+                        {(skill as any).logo && (
+                          <Image
+                            src={(skill as any).logo}
+                            alt={skill.name}
+                            width={12}
+                            height={12}
+                            className="w-3 h-3 object-contain"
+                          />
+                        )}
                         {skill.name}
                       </Badge>
                     ))}

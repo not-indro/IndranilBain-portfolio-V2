@@ -11,7 +11,7 @@ export const DATA = {
     "AI/ML Engineer & Data Analyst. I bridge the gap between complex data pipelines and production-grade ML systems.",
   summary:
     "I'm an AI/ML Engineer with **2+ years** of experience solving **complex data analytics problems** and building **ML models**. I love solving problems, whether it's optimising complex pipelines or deploying robust ML systems. With over **13+ projects** Completed, I bridge the gap between raw data and real-world impact, combining technical expertise with a product first mindset.",
-  avatarUrl: "/meme.jpg",
+  avatarUrl: "/self.jpeg",
   skills: [
     {
       category: "Programming Languages",
@@ -110,6 +110,19 @@ export const DATA = {
 
   work: [
     {
+      company: "PermitFlow",
+      href: "https://www.permitflow.com/",
+      badges: [],
+      location: "New York, USA (Remote)",
+      title: "Analyst - Operations",
+      logoUrl: "/PermitFlow.jpg",
+      start: "January 2026",
+      end: "Present",
+      description:
+        "- Collaborated with construction-industry companies to **streamline permitting workflows** across AHJs and county authorities through **automation initiatives**, improving turnaround time and reducing operational friction.\n- Converted operational data into **structured insights and recommendations**, supporting leadership teams in making clearer **strategic and process improvement decisions**.",
+      links: [],
+    },
+    {
       company: "EvenFlow AI",
       href: "https://evenflow.ai/",
       badges: [],
@@ -117,12 +130,10 @@ export const DATA = {
       title: "Data Analyst",
       logoUrl: "/evenflow.jpg",
       start: "Jan 2025",
-      end: "Present",
+      end: "Dec 2025",
       description:
         "- Developed a **repair-category prediction model** for operation codes using **TF-IDF** and **Logistic Regression**. Cleaned and prepared the data, tuned the model, and reached **91% accuracy**, which helped reduce manual tagging work by **80%** and improved repair tracking.\n- Created an **outreach tool** for the support team to easily upload CSV files and trigger customer reminders. Set up a rule-based system plus integrated **TextGrid API** for scheduled messages, which cut a lot of manual follow-ups (around **75%**) and improved rescheduling rates.\n- Worked directly with the **CEO** to dig into operational data, improved the internal calculations, and supported service center managers with insights that helped them streamline processes and drive better results.",
-      links: [
-
-      ],
+      links: [],
     },
     {
       company: "i3 Digital Health",
@@ -136,7 +147,6 @@ export const DATA = {
       description:
         "- Automated data pipelines to pull drug, cancer, and biomarker data from the **ClinicalTrials API** using **SciSpacy NER** and **BioBERT model**, reduced manual lookup work by **85%**. Handled data cleaning, entity mapping, and tagging so the research team could use the data directly.\n- Developed a **scalable ETL scraper** for FDA oncology drug label PDFs, automating ingestion, parsing, and storage (**S3**) saving **3 Hours/day** of manual work. Used **BeautifulSoup4** + **async task queues**.",
       links: [
-
         {
           title: "Experience Letter",
           href: "https://drive.google.com/file/d/1R8qDOzkh9s7wv23SK350o82n6a_Igj4r/view?usp=sharing",
