@@ -119,7 +119,7 @@ export const DATA = {
       start: "Jan 2026",
       end: "Present",
       description:
-        "-Worked closely with client organisations to streamline permitting workflows across **AHJs** and **county authorities** by developing **automation pipelines** and rule based **processing systems**, reducing manual effort by **50%** and improving approval turnaround times.\n-  Analysed operational performance metrics using **SQL, Excel modelling, and KPI tracking**, translating insights into reports that enabled teams to optimise **internal workflows** and support data-driven **strategic decisions**.",
+        "- Worked closely with client organisations to streamline permitting workflows across **AHJs** and **county authorities** by developing **automation pipelines** and rule based **processing systems**, reducing manual effort by **50%** and improving approval turnaround times.\n-  Analysed operational performance metrics using **SQL, Excel modelling, and KPI tracking**, translating insights into reports that enabled teams to optimise **internal workflows** and support data-driven **strategic decisions**.",
       links: [],
     },
     {
