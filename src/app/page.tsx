@@ -32,13 +32,24 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <div className="size-32 overflow-hidden rounded-[60%_40%_30%_70%/60%_30%_70%_40%] border-2 border-primary/20 shadow-xl">
+              <div
+                className="size-40 overflow-hidden relative shadow-xl"
+                style={{
+                  maskImage: 'url("/brush-mask.svg")',
+                  WebkitMaskImage: 'url("/brush-mask.svg")',
+                  maskSize: 'contain',
+                  WebkitMaskSize: 'contain',
+                  maskRepeat: 'no-repeat',
+                  WebkitMaskRepeat: 'no-repeat',
+                  maskPosition: 'center',
+                  WebkitMaskPosition: 'center',
+                }}
+              >
                 <Image
                   alt={DATA.name}
                   src={DATA.avatarUrl}
-                  width={128}
-                  height={128}
-                  className="size-full object-cover"
+                  fill
+                  className="object-cover"
                   priority
                 />
               </div>
@@ -171,6 +182,7 @@ export default function Page() {
                             width={12}
                             height={12}
                             className="w-3 h-3 object-contain"
+                            unoptimized
                           />
                         )}
                         {skill.name}

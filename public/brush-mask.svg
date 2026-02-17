@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="3" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="15" />
+    </filter>
+  </defs>
+  <path 
+    d="M40,50 
+       Q60,20 100,25 
+       T160,40 
+       Q190,60 180,100 
+       T150,160 
+       Q110,190 70,170 
+       T30,130 
+       Q10,90 40,50Z" 
+    fill="black" 
+    filter="url(#noise)"
+    transform="scale(1.1) translate(-10 -10)"
+  />
+</svg>

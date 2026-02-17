@@ -120,13 +120,7 @@ export const DATA = {
       end: "Present",
       description:
         "- Spearheaded **automation initiatives** to streamline complex **permitting workflows** across multiple AHJs and county authorities, significantly reducing administrative bottlenecks and improving turnaround times.\n- Synthesized complex operational data into **structured insights**, empowering leadership with data-driven recommendations for **strategic decision-making** and process optimization.",
-      links: [
-        {
-          title: "Experience Letter",
-          href: "https://drive.google.com/file/d/1oK4Sp4ldL-VUe8ZeW9YUKwYvvSiuFY6C/view?usp=sharing",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
+      links: [],
     },
     {
       company: "EvenFlow AI",
@@ -139,7 +133,13 @@ export const DATA = {
       end: "Dec 2025",
       description:
         "- Developed a **repair-category prediction model** for operation codes using **TF-IDF** and **Logistic Regression**. Cleaned and prepared the data, tuned the model, and reached **91% accuracy**, which helped reduce manual tagging work by **80%** and improved repair tracking.\n- Created an **outreach tool** for the support team to easily upload CSV files and trigger customer reminders. Set up a rule-based system plus integrated **TextGrid API** for scheduled messages, which cut a lot of manual follow-ups (around **75%**) and improved rescheduling rates.\n- Worked directly with the **CEO** to dig into operational data, improved the internal calculations, and supported service center managers with insights that helped them streamline processes and drive better results.",
-      links: [],
+      links: [
+        {
+          title: "Experience Letter",
+          href: "https://drive.google.com/file/d/1oK4Sp4ldL-VUe8ZeW9YUKwYvvSiuFY6C/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
     },
     {
       company: "i3 Digital Health",
