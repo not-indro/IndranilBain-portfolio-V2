@@ -116,7 +116,7 @@ export const DATA = {
       location: "New York, USA (Remote)",
       title: "Analyst - Operations",
       logoUrl: "/PermitFlow.jpg",
-      start: "January 2026",
+      start: "Jan 2026",
       end: "Present",
       description:
         "- Spearheaded **automation initiatives** to streamline complex **permitting workflows** across multiple AHJs and county authorities, significantly reducing administrative bottlenecks and improving turnaround times.\n- Synthesized complex operational data into **structured insights**, empowering leadership with data-driven recommendations for **strategic decision-making** and process optimization.",
