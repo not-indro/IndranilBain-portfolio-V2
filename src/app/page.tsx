@@ -23,7 +23,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I'm ${DATA.name.split(" ")[0]} ✨`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -33,7 +33,7 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <div
-                className="size-40 overflow-hidden relative shadow-xl"
+                className="size-56 overflow-hidden relative shadow-xl"
                 style={{
                   maskImage: 'url("/brush-mask.svg")',
                   WebkitMaskImage: 'url("/brush-mask.svg")',
