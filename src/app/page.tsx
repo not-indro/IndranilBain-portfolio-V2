@@ -33,7 +33,7 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <div
-                className="size-44 overflow-hidden relative shadow-xl"
+                className="size-48 overflow-hidden relative shadow-xl"
                 style={{
                   maskImage: 'url("/brush-mask.svg")',
                   WebkitMaskImage: 'url("/brush-mask.svg")',
