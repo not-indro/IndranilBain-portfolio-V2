@@ -119,14 +119,14 @@ export const DATA = {
       start: "Jan 2026",
       end: "Present",
       description:
-        "- Spearheaded **automation initiatives** to streamline complex **permitting workflows** across multiple AHJs and county authorities, significantly reducing administrative bottlenecks and improving turnaround times.\n- Synthesized complex operational data into **structured insights**, empowering leadership with data-driven recommendations for **strategic decision-making** and process optimization.",
+        "-Worked closely with client organisations to streamline permitting workflows across **AHJs** and **county authorities** by developing **automation pipelines** and rule based **processing systems**, reducing manual effort by **50%** and improving approval turnaround times.\n-  Analysed operational performance metrics using **SQL, Excel modelling, and KPI tracking**, translating insights into reports that enabled teams to optimise **internal workflows** and support data-driven **strategic decisions**.",
       links: [],
     },
     {
       company: "EvenFlow AI",
       href: "https://evenflow.ai/",
       badges: [],
-      location: "Remote (Northfield, IL, USA)",
+      location: "Chicago, USA (Remote)",
       title: "Data Analyst",
       logoUrl: "/evenflow.jpg",
       start: "Jan 2025",
@@ -168,7 +168,7 @@ export const DATA = {
       title: "Summer Project Intern",
       logoUrl: "/iiest.png",
       start: "May 2023",
-      end: "July 2023",
+      end: "Jul 2023",
       description:
         "- Developed an **GRE practice platform** using **React**. Focused on simplifying the UI and on-boarding flow, which helped students get started faster and led to **35% higher engagement** and **40% drop in on-boarding time**.\n- Implemented a **basic recommendation system** using **collaborative filtering** and user behaviour data to suggest practice questions, which helped students improve scores by **25%**.",
       links: [
@@ -187,7 +187,7 @@ export const DATA = {
       location: "Kharagpur, India",
       title: "Research Intern",
       logoUrl: "/iitkgp.png",
-      start: "July 2022",
+      start: "Jul 2022",
       end: "Oct 2022",
       description:
         "- Worked on **medical imaging pipeline** for the Skin Curate app, focusing on cleaning and improving dermatology image data. Improved preprocessing and evaluation steps, helping reduce false positives by **30%**.\n- Implemented with **Federated Learning** for dermatology image classification, improving model performance and privacy compliance achieving **83.2% accuracy** across distributed training nodes.",
