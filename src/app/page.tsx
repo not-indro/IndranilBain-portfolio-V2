@@ -32,10 +32,16 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-32 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
-                <AvatarFallback>{DATA.initials}</AvatarFallback>
-              </Avatar>
+              <div className="size-32 overflow-hidden rounded-[60%_40%_30%_70%/60%_30%_70%_40%] border-2 border-primary/20 shadow-xl">
+                <Image
+                  alt={DATA.name}
+                  src={DATA.avatarUrl}
+                  width={128}
+                  height={128}
+                  className="size-full object-cover"
+                  priority
+                />
+              </div>
             </BlurFade>
           </div>
         </div>

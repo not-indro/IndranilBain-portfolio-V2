@@ -119,8 +119,14 @@ export const DATA = {
       start: "January 2026",
       end: "Present",
       description:
-        "- Collaborated with construction-industry companies to **streamline permitting workflows** across AHJs and county authorities through **automation initiatives**, improving turnaround time and reducing operational friction.\n- Converted operational data into **structured insights and recommendations**, supporting leadership teams in making clearer **strategic and process improvement decisions**.",
-      links: [],
+        "- Spearheaded **automation initiatives** to streamline complex **permitting workflows** across multiple AHJs and county authorities, significantly reducing administrative bottlenecks and improving turnaround times.\n- Synthesized complex operational data into **structured insights**, empowering leadership with data-driven recommendations for **strategic decision-making** and process optimization.",
+      links: [
+        {
+          title: "Experience Letter",
+          href: "https://drive.google.com/file/d/1oK4Sp4ldL-VUe8ZeW9YUKwYvvSiuFY6C/view?usp=sharing",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
     },
     {
       company: "EvenFlow AI",
