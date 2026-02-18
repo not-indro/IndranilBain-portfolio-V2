@@ -11,7 +11,7 @@ export const DATA = {
     "AI/ML Engineer & Data Analyst. I bridge the gap between complex data pipelines and production-grade ML systems.",
   summary:
     "I'm an AI/ML Engineer with **2+ years** of experience solving **complex data analytics problems** and building **ML models**. I love solving problems, whether it's optimising complex pipelines or deploying robust ML systems. With over **13+ projects** Completed, I bridge the gap between raw data and real-world impact, combining technical expertise with a product first mindset.",
-  avatarUrl: "/self.jpeg",
+  avatarUrl: "/self-2.jpeg",
   skills: [
     {
       category: "Programming Languages",
