@@ -372,7 +372,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/skincurate.png",
+      image: "/skincurate.jpg",
       video: "",
     },
     {
