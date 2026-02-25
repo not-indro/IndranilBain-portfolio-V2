@@ -215,6 +215,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "AI-Weekly-Digest App",
+      href: "https://ai-weekly-digest.vercel.app/",
+      dates: "Media",
+      active: true,
+      description:
+        "**AI-Weekly-Digest is an automated open-source pipeline that:**\n\n- **Automated Workflow:** Aggregates and verifies AI news from multiple sources to curate a weekly briefing.\n- **Summarization & Delivery:** Leverages Groq (Llama 3.1 70B) for intelligent content summarization to produce polished, Outlook-ready newsletters.",
+      technologies: [
+        "Python",
+        "JavaScript",
+        "CSS",
+        "Jinja",
+        "Tavily",
+        "Groq (Llama 3.1 70B)",
+        "HTML",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ai-weekly-digest.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/not-indro/AI-Weekly-Digest",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ai-weekly-digest.png",
+      video: "",
+    },
+    {
       title: "Biased Media Classifier",
       href: "https://github.com/not-indro/Biased_MediaClassifier",
       dates: "Media",
@@ -235,7 +267,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/MBIC%20prj.png",
+      image: "/MBIC.png",
       video: "",
     },
     {
@@ -258,7 +290,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/pdfSAGE%20Banner%20Website.png",
+      image: "/pdfSAGE.png",
       video: "",
     },
     {
@@ -286,7 +318,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/HMER%20Website%20Banner'.png",
+      image: "/HMER.png",
       video: "",
     },
     {
@@ -313,7 +345,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/prj3.png",
+      image: "/gre.png",
       video: "",
     },
     {
@@ -340,7 +372,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/prj4.jpg",
+      image: "/skincurate.png",
       video: "",
     },
     {
@@ -467,7 +499,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/prj2.png",
+      image: "/harrypottergame.png",
       video: "",
     },
     {
@@ -488,7 +520,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/prj1.png",
+      image: "/portfolio1.png",
       video: "",
     },
     {
@@ -514,7 +546,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://not-indro.github.io/Portfolio/assets/image/prj5.png",
+      image: "/analytics.png",
       video: "",
     },
   ],
