@@ -119,7 +119,7 @@ export const DATA = {
       start: "Jan 2026",
       end: "Present",
       description:
-        "- Worked closely with client organisations to streamline permitting workflows across **AHJs** and **county authorities** by developing **automation pipelines** and rule based **processing systems**, reducing manual effort by **50%** and improving approval turnaround times.\n-  Analysed operational performance metrics using **SQL, Excel modelling, and KPI tracking**, translating insights into reports that enabled teams to optimise **internal workflows** and support data-driven **strategic decisions**.",
+        "- Analysed **large-scale permitting** and **operational datasets** to identify workflow bottlenecks, forecast approval timelines, and deliver actionable insights that reduced manual effort by **60%** while supporting **data-driven decision-making**.\n- Conducted **county-level regulatory research** and permit lifecycle analysis across multiple **AHJs**, streamlining permitting processes, prioritising high-risk applications, and optimising operational planning and resource allocation.\n- Managed end-to-end permitting for multiple client accounts, collaborating with **cross-functional teams, AHJs**, and **county authorities** to ensure compliance, mitigate approval risks, and deliver projects within established timelines.",
       links: [],
     },
     {
